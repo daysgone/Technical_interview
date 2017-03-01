@@ -61,6 +61,7 @@ class SinglyLinkedList(object):
     """
     def __init__(self, head=None):
         self._head = head
+        self._tail = head
 
     @property
     def head(self):
@@ -70,21 +71,19 @@ class SinglyLinkedList(object):
         """
         return self._head
 
+    @head.setter
+    def head(self, node):
+        self._head = node
+
+    @property
     def tail(self):
-        found = False
-        current = self._head
-        while current and found is False:
-            print current
-            if current.next_node is None:
-                found = True
-            else:
-                current = current.next_node
+        return self._tail
 
-        if current is None:
-            print current
-        return current
+    @tail.setter
+    def tail(self, node):
+        self._tail = node
 
-    def insert(self, data):
+    def insert_start(self, data):
         """
         take data and initializes new node with given data and adds to list
         places new node at head of list
@@ -92,18 +91,30 @@ class SinglyLinkedList(object):
         :return: None
         """
         new_node = Node(data, self._head)  # add new node to front of list
+
+        if self.head is None:  # first node added to list
+            self.head = new_node
+            self.tail = new_node
+
         self._head = new_node  # head of list now the new node
 
-    def insert_end(self, data):
+    def insert_after(self, data, prev_node=None):
         """
-        take data and initialize new node with given data and adds to end of list
-        :param data:
+        take data and initialize new node with given data and adds to end of singly linked list
+        tail must be updated
+        :param data: data to be stored inside new node
+        :param prev_node: Node object to place new node after if None then tail of list is assumed
         :return: None
         """
-        new_node = Node(data, self._head)
-        self.size()
+        new_node = Node(data)
 
-    #@ TODO does this work?
+        if prev_node is None:  # adding to tail of list
+            prev_node = self.tail
+            self.tail = new_node
+
+        new_node.next_node = prev_node.next_node
+        prev_node.next_node = new_node
+
     def size(self):
         """
         loops through nodes in list
@@ -115,8 +126,8 @@ class SinglyLinkedList(object):
             count += 1
             current = current.next_node
         return count
-
-    def search(self, data):
+    '''
+    def search(self, data, delete=False):
         """
         look for node with data given
         :param data: data to look for
@@ -165,15 +176,40 @@ class SinglyLinkedList(object):
                 previous.next_node = current.next_node
         except ValueError as e:
             print e
+    '''
+    def search(self, data, pop=False):
+        current = self._head
+        previous = None
+        found = False
+        try:
+            while current and found is False:
+                if current.data == data:
+                    found = True
+                else:
+                    previous = current
+                    current = current.next_node  # get next item in list
+
+            if current is None: # reached the end of the linked list
+                raise ValueError("Data not in list")
+
+            if pop:
+                if previous is None:  # if item is first in list
+                    self._head = current.next_node
+                else:
+                    previous.next_node = current.next_node
+
+            return current
+        except ValueError as e:
+            print e
 
     def __str__(self):
         current = self._head
-        prtstr = current.data
+        prtstr = str(current.data)
         current = current.next_node
-
+        concat = '->'
         while current is not None:
-            prtstr += '->'
-            prtstr += current.data
+            prtstr += concat
+            prtstr += str(current.data)
             current = current.next_node
 
         return prtstr
@@ -196,24 +232,28 @@ def del_dup_sl_list(list):
 
         prev_node = cur_node
         cur_node = cur_node.next_node
+
+
+if __name__ == "__main__":
+    sl_list = SinglyLinkedList()
+
+    sl_list.insert_start(1)
+    sl_list.insert_start(2)
+    sl_list.insert_start(Node('name'))
+
+    sl_list.insert_after("tail")
+    print sl_list
+    test_node = sl_list.search(1, True)
+    print sl_list
+    print test_node
     '''
-    for key, value in hash_table.iteritems():
-        print key, value
+    sl_list.insert_after('forth', test_node)
+    print 'prior to de-dup %s' % sl_list
+
+    del_dup_sl_list(sl_list)
+    #newitem =sl_list.search('one')
+    #print newitem
+    #print 'size of linked list %d' % sl_list.size()
+    #print sl_list.tail
+    print 'post de-dup %s' % sl_list
     '''
-
-#head = Node('head')
-sl_list = SinglyLinkedList()
-
-sl_list.insert('test')
-sl_list.insert('one')
-sl_list.insert('head')
-sl_list.insert('one')
-sl_list.insert('two')
-sl_list.insert('three')
-print sl_list
-
-del_dup_sl_list(sl_list)
-#newitem =sl_list.search('one')
-#print newitem
-print 'size of linked list %d' % sl_list.size()
-print sl_list

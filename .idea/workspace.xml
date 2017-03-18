@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f98b80fd-c83a-4bfa-b1ec-e77d497e5bf7" name="Default" comment="atoi added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/treeLevelSum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/visible_points.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/visible_points_v2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordladder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordladder_v2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordladder_v3.py" />
+    <list default="true" id="f98b80fd-c83a-4bfa-b1ec-e77d497e5bf7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Technical_interview.iws" />
@@ -419,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488345941343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="atoi added">
+      <created>1489803575318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489803575318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">

@@ -10,6 +10,52 @@ import bisect
 
 
 def sumOfTwo(a, b, v):
+    a.sort()
+    # cut down list so items that are larger are not a factor
+    #indexa = bisect.bisect(a, v)
+    #a = set(a[:indexa])  # remove duplicates
+    a = set(a)
+    dictb = {val: index for index, val in enumerate(b)}
+
+    for i, value in enumerate(a):
+        # print v-value
+        if (v-value) in dictb:
+            return True
+    return False
+
+    #b.sort()
+
+    '''
+    # cut down list so items that are larger are not a factor
+    indexa = bisect.bisect(a, v)
+    indexb = bisect.bisect(b, v)
+
+    newlista = a[:indexa]
+    newlistb = b[:indexb]
+
+    for x,y in[(x,y) for x in newlista for y in newlistb]:
+        if x+y == v:
+            return True
+    return False
+    '''
+
+    '''
+    #print newlistb
+    for index, value in enumerate(newlista):
+            searchfor = v - value
+            # print searchfor
+            try:
+                if searchfor in newlistb:
+                    return True
+            except ValueError:
+                # not found in list
+                pass
+
+    return False
+    '''
+
+'''
+def sumOfTwo(a, b, v):
     """
     sum up one value from each list and add it to one from the other
     :param a: list of integers
@@ -19,11 +65,11 @@ def sumOfTwo(a, b, v):
     """
     # remove values from both lists that are larger then the value to sum up to
     a.sort()
-    index = bisect.bisect_left(a, v-1)
+    index = bisect.bisect_right(a, v)
     a = a[:index]
 
     b.sort()
-    index = bisect.bisect_left(b, v-1)
+    index = bisect.bisect_right(b, v)
     b = b[:index]
 
     for i in a:
@@ -31,6 +77,7 @@ def sumOfTwo(a, b, v):
             if i+j == v:
                 return True
     return False
+'''
 '''
 def sumOfTwo(a, b, v):
     # this is simplest way to do this without optimizing
@@ -40,3 +87,9 @@ def sumOfTwo(a, b, v):
                 return True
     return False
 '''
+a = [-1]
+b = [1]
+v = 0
+print sumOfTwo(a, b, v)
+
+

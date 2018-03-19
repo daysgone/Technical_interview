@@ -40,25 +40,29 @@ def reverseNodesInKGroups(l, k):
         return l
 
     head = ll.ListNode('head')
+    nextnode = ll.ListNode('next')
     curnode = l
 
-    while checkNextNode(curnode,k):
+    while checkNextNode(curnode, k):
         #print '\nsub-section start: {}'.format(curnode.value)  # these are the start of subsections
         prev = None
+        tail = curnode  # keep track of end of next subsection
+
         for i in range(k):
-            #print '\tstart loop {}:\t\t cur:\t {}, prev:\t {:4}, l:\t {}, next:\t {}'.format(i, curnode.value, prev.value, l.value, 0)
+            #print '\tstart loop {}:\t\t cur:\t {}, l:\t {}, next:\t {}'.format(i, curnode.value, l.value, nextnode.value)
             nextnode = curnode.next
             curnode.next = prev
             prev = curnode
             curnode = nextnode
+            #print '\tend loop {}:\t\t\t cur:\t {}, l:\t {}, next:\t {}'.format(i, curnode.value, l.value, nextnode.value)
 
         if head.next is None:
             head.next = prev
         else:
             l.next = prev
-            l = prev.next
+            l = tail  #TODO what if k is greater then 2?
 
-        #print ll.linked_list_to_list(head.next)
+        print ll.linked_list_to_list(head.next)
     l.next = curnode
     #print ll.linked_list_to_list(head.next)
     return head.next

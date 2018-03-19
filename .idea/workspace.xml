@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f98b80fd-c83a-4bfa-b1ec-e77d497e5bf7" name="Default" comment="linked list problems">
-      <change beforePath="" afterPath="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/linkedlist.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/reverseNodesInKGroups.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/test_reverseNodesInKGroups.py" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="f98b80fd-c83a-4bfa-b1ec-e77d497e5bf7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/hash_table/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hash_table/groupingDishes/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hash_table/groupingDishes/groupingDishes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hash_table/groupingDishes/test_groupingDishes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/linked_list/rearrangeLastN/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/linked_list/rearrangeLastN/linkedlist.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/linked_list/rearrangeLastN/rearrangeLastN.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/linked_list/rearrangeLastN/test_rearrangeLastN.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/reverseNodesInKGroups.py" afterPath="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/reverseNodesInKGroups.py" />
+      <change beforePath="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/test_reverseNodesInKGroups.py" afterPath="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/test_reverseNodesInKGroups.py" />
     </list>
     <ignored path="Technical_interview.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,59 +37,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reverseNodesInKGroups.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list/reverseNodesInKGroups/reverseNodesInKGroups.py">
+      <file leaf-file-name="test_groupingDishes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hash_table/groupingDishes/test_groupingDishes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="34" selection-end-column="15" />
-              <folding>
-                <element signature="e#116#601#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linkedlist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list/linkedlist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#65#140#0" expanded="false" />
-                <element signature="e#175#476#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_reverseNodesInKGroups.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list/reverseNodesInKGroups/test_reverseNodesInKGroups.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="1518">
+              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linkedlist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list/reverseNodesInKGroups/linkedlist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -114,6 +75,8 @@
       <find>l_test</find>
       <find>node_list_test</find>
       <find>cur</find>
+      <find>tail</find>
+      <find>KEY</find>
     </findStrings>
     <replaceStrings>
       <replace>next_node</replace>
@@ -129,6 +92,8 @@
       <replace>l</replace>
       <replace>node_list</replace>
       <replace>curnode</replace>
+      <replace>start_of_swap</replace>
+      <replace>ingredient</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -174,9 +139,13 @@
         <option value="$PROJECT_DIR$/linked_list/__init__.py" />
         <option value="$PROJECT_DIR$/linked_list/remove duplicate linked list/test_remove_dup.py" />
         <option value="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/linkedlist.py" />
-        <option value="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/reverseNodesInKGroups.py" />
-        <option value="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/test_reverseNodesInKGroups.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/test_reverseNodesInKGroups.py" />
+        <option value="$PROJECT_DIR$/linked_list/reverseNodesInKGroups/reverseNodesInKGroups.py" />
+        <option value="$PROJECT_DIR$/linked_list/rearrangeLastN/test_rearrangeLastN.py" />
+        <option value="$PROJECT_DIR$/linked_list/rearrangeLastN/rearrangeLastN.py" />
+        <option value="$PROJECT_DIR$/hash_table/groupingDishes/groupingDishes.py" />
+        <option value="$PROJECT_DIR$/hash_table/groupingDishes/test_groupingDishes.py" />
       </list>
     </option>
   </component>
@@ -223,19 +192,7 @@
             <path>
               <item name="Technical_interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technical_interview" type="462c0819:PsiDirectoryNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technical_interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical_interview" type="462c0819:PsiDirectoryNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-              <item name="remove duplicate linked list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technical_interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical_interview" type="462c0819:PsiDirectoryNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-              <item name="reverseNodesInKGroups" type="462c0819:PsiDirectoryNode" />
+              <item name="hash_table" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,11 +214,11 @@
       <recent name="C:\Users\brian\PycharmProjects\Technical_interview\tripletSum" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brian\PycharmProjects\Technical_interview\linked_list\rearrangeLastN" />
       <recent name="C:\Users\brian\PycharmProjects\Technical_interview\linked_list\reverseNodesInKGroups" />
       <recent name="C:\Users\brian\PycharmProjects\Technical_interview\linked_list\remove duplicate linked list" />
       <recent name="C:\Users\brian\PycharmProjects\Technical_interview\firstDuplicate" />
       <recent name="C:\Users\brian\PycharmProjects\Technical_interview\sumOfTwo" />
-      <recent name="C:\Users\brian\PycharmProjects\Technical_interview" />
     </key>
   </component>
   <component name="RemoteSynchronizer">
@@ -285,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_reverseNodesInKGroups.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_groupingDishes.py">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,20 +281,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="isCryptSolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rearrangeLastN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/isCryptSolution" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linked_list/rearrangeLastN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Technical_interview" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isCryptSolution/isCryptSolution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linked_list/rearrangeLastN/rearrangeLastN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -399,7 +356,23 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="Unittests in test_remove_dup.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_groupingDishes.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hash_table/groupingDishes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Technical_interview" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/hash_table/groupingDishes/test_groupingDishes.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_rearrangeLastN.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -412,23 +385,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/linked_list/remove duplicate linked list/test_remove_dup.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in test_remove_dup.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/remove duplicate linked list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Technical_interview" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/remove duplicate linked list/test_remove_dup.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linked_list/rearrangeLastN/test_rearrangeLastN.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in test_reverseNodesInKGroups.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -516,19 +473,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Python.isCryptSolution" />
-      <item index="2" class="java.lang.String" itemvalue="Python.reverseNodesInKGroups" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_remove_dup.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_remove_dup.py (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test_reverseNodesInKGroups.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.reverseNodesInKGroups" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_reverseNodesInKGroups.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.rearrangeLastN" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_rearrangeLastN.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test_groupingDishes.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_reverseNodesInKGroups.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.reverseNodesInKGroups" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_remove_dup.py (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_remove_dup.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.isCryptSolution" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_groupingDishes.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_rearrangeLastN.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.rearrangeLastN" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_reverseNodesInKGroups.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.reverseNodesInKGroups" />
       </list>
     </recent_temporary>
   </component>
@@ -588,52 +545,76 @@
       <option name="project" value="LOCAL" />
       <updated>1520906369676</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="linked list problems">
+      <created>1521082432330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521082432330</updated>
+    </task>
+    <task id="LOCAL-00008" summary="linked list problems">
+      <created>1521082481597</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1521082481597</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 00h 48m 33s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 34m 12s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 21h 50m 45s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 34m 26s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 22h 16m 25s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 35m 00s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 22h 16m 49s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 38m 46s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 22h 17m 07s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 39m 23s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 22h 17m 31s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 40m 27s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 22h 17m 46s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 40m 46s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 22h 18m 18s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 48m 19s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 22h 42m 58s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 48m 34s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reverseNodesInKGroups_py - 2018.03.14 at 22h 46m 20s.xml">
-      <configuration name="Unittests in test_reverseNodesInKGroups.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_groupingDishes_py - 2018.03.18 at 23h 51m 03s.xml">
+      <configuration name="Unittests in test_groupingDishes.py" configurationId="tests" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-2413" y="-1137" width="2426" height="3806" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16782007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1646859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994637" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25769123" sideWeight="0.50216264" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32740614" sideWeight="0.49871466" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2960745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21309625" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29579452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42590618" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2006774" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="-1439" y="903" width="984" height="2630" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25769123" sideWeight="0.49783736" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -642,10 +623,9 @@
       <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3298217" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -704,7 +684,8 @@
     <MESSAGE value="more codefights added" />
     <MESSAGE value="sumof2" />
     <MESSAGE value="havint updated in a while" />
-    <option name="LAST_COMMIT_MESSAGE" value="havint updated in a while" />
+    <MESSAGE value="linked list problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,40 +699,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="84" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/atoi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_prefix.py" />
-    <entry file="file://$PROJECT_DIR$/single_linked_list_dup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atoi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single_linked_list_dup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/single_linked_list_dup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1051,14 +1003,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linked_list/linkedlist.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#65#140#0" expanded="false" />
-            <element signature="e#175#476#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1617">
+          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,31 +1019,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linked_list/reverseNodesInKGroups/reverseNodesInKGroups.py">
+    <entry file="file://$PROJECT_DIR$/linked_list/rearrangeLastN/linkedlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="34" selection-end-column="15" />
-          <folding>
-            <element signature="e#116#601#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linked_list/reverseNodesInKGroups/test_reverseNodesInKGroups.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="1782">
+          <caret line="54" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/linked_list/reverseNodesInKGroups/reverseNodesInKGroups.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        <state relative-caret-position="1683">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="74" selection-end-column="36" />
+          <folding>
+            <element signature="e#116#601#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list/rearrangeLastN/rearrangeLastN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list/linkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#65#140#0" expanded="false" />
+            <element signature="e#175#476#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list/rearrangeLastN/test_rearrangeLastN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/groupingDishes/groupingDishes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/groupingDishes/test_groupingDishes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

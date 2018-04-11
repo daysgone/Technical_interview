@@ -8,16 +8,18 @@ For coins = [10, 50, 100] and quantity = [1, 2, 1], the output should be
 possibleSums(coins, quantity) = 9.
 
 Here are all the possible sums:
+10 = 10;
+10 + 50 = 60;
+10 + 50 + 100 = 160;
+10 + 50 + 50 = 110;
+10 + 50 + 50 + 100 = 210;
 
 50 = 50;
-10 + 50 = 60;
 50 + 100 = 150;
-10 + 50 + 100 = 160;
 50 + 50 = 100;
-10 + 50 + 50 = 110;
 50 + 50 + 100 = 200;
-10 + 50 + 50 + 100 = 210;
-10 = 10;
+
+
 100 = 100;
 10 + 100 = 110.
 As you can see, there are 9 distinct sums that can be created from non-empty groupings of your coins.
@@ -53,14 +55,22 @@ The number of different possible sums that can be created from non-empty groupin
 
 def possibleSums(coins, quantity):
     dictionary = {}
-    for index, value in enumerate(coins):
-        if value in dictionary:
-            dictionary[value] += 1
-        else:
-            dictionary[value] = 1
+    tempValue = 0
+    start = 0
+
+    for index, coin in enumerate(coins):
+        for loop in xrange(sum(quantity[index+1:])):
+            print 'quantity loop {}'.format(loop)
+            tempValue += coin
+            print tempValue
+
+
+
+
+
+
 
     return dictionary
-
 
 if __name__ == '__main__':
     coins = [10,50,100]
